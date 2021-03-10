@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Antic+Slab);
+html,
+body {
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Antic Slab', serif;
+  font-size: 80px;
+  color: #DDCCEE;
+}
+
+.lead {
+  color: #DDCCEE;
+}
+/* Custom container */
+
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100%;
+  background-color: #841deb;
+  color: #DDCCEE;
+  overflow: hidden;
+}
+
+.container-full blockquote {
+  margin-left: 10vh;
+  margin-right: 10vh;
+  padding: 10px 20px;
+  font-size: 17.5px;
+}
+
+#author {
+  color: #DDCCEE;
+}
+
+.v-center {
+  margin-top: 7%;
+}
